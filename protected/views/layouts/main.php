@@ -32,8 +32,11 @@
 				'items' => array(
 					array('label' => 'Home', 'url' => array('/site/index')),
 					array('label' => 'About', 'url' => array('/site/page', 'view' => 'about')),
-					array('label' => 'Contact', 'url' => array('/site/contact')),
-					array('label' => 'Wilayah', 'url' => array('/wilayah/admin')),
+					// array('label' => 'Contact', 'url' => array('/site/contact')),
+					array('label' => 'Pendaftaran', 'url' => array('/wilayah/admin')),
+					array('label' => 'Tindakan', 'url' => array('/tindakan/admin')),
+					array('label' => 'Tagihan', 'url' => array('/obat/admin')),
+					array('label' => 'Laporan', 'url' => array('/user/admin')),
 					array('label' => 'Login', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
 					array('label' => 'Logout (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest)
 				),

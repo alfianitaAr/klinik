@@ -1,12 +1,25 @@
 <?php
 /* @var $this SiteController */
 
-$this->pageTitle=Yii::app()->name . ' - About';
-$this->breadcrumbs=array(
+$this->pageTitle = Yii::app()->name . ' - About';
+$this->breadcrumbs = array(
 	'About',
 );
 ?>
 <h1>About</h1>
 
-<p>This is a "static" page. You may change the content of this page
-by updating the file <code><?php echo __FILE__; ?></code>.</p>
+<p>Ketentuan aplikasi secara umum yang dibuat terdiri dari :</p>
+
+<ul>
+	<li>1. Terdapat user login berdasarkan hak aksesnya (SRBAC)</li>
+	<li>2. Terdapat master CRUD untuk pembuatan master wilayah, user, dan pegawai, tindakan, obat</li>
+	<li>3. Terdapat menu transaksi untuk pendaftaran pasien</li>
+	<li>4. Terdapat menu transaksi untuk memberikan tindakan dan obat pada pasien</li>
+	<li>5. Terdapat menu informasi untuk melakukan pembayaran tagihan pasien</li>
+	<li>6. Terdapat menu laporan yang dapat ditampilkan dengan grafik</li>
+</ul>
+
+
+
+<p>Aplikasi yang dibuat menggunakan Framework Yii-1 menggunakan database sql.
+</p>
